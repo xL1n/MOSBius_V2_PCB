@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=NCV8164ASN250T1G
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=2.1
+Released=2021-09-10 10:42:59
+Downloaded=2025-08-23 18:09:02
+3D=Y

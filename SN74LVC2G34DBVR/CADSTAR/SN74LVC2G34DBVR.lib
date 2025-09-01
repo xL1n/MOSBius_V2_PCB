@@ -1,0 +1,18 @@
+.SN74LVC2G34DBVR :1 ;Texas Instruments SN74LVC2G34DBVR, Dual, Buffer, Non-Inverting, 1.65  5.5 V, 6-Pin SOT-23
+SOT95P280X145-6N
+*STM IC
+*NGS
+*PLB 1="1A" 2="GND" 3="2A" 4="2Y" 5="VCC" 6="1Y"
+*MXP 6
+*DFN SN74LVC2G34DBVR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (SN74LVC2G34DBVR)
+~!Mouser Part Number (595-SN74LVC2G34DBVR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC2G34DBVR?qs=gqbMQSs93zOw%2FyHBVKqhZQ%3D%3D)
+~!Arrow Part Number (SN74LVC2G34DBVR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sn74lvc2g34dbvr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.ti.com/lit/gpn/SN74LVC2G34)
+~!Height (1.45mm)
+~!3D_Model (SN74LVC2G34DBVR)
+SN74LVC2G34DBVR
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

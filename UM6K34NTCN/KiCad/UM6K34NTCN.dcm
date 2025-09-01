@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP UM6K34NTCN
+D 0.9V Drive Nch+Nch MOSFET
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k34ntcn-e.pdf
+$ENDCMP
+#
+#End Doc Library

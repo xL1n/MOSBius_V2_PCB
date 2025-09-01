@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCV8164ASN250T1G
+D 1.6V to 5.5V input voltage; PSRR: 85 dB at 1 kHz; Low VDO at 2.8V @80mV max dropout; WDFN6 2 mm x 2 mm, DFNW8 3 mm x 3 mm, and TSOP-5; Ultra-Low Noise: 9VRMS; 150C operating Junction temperature
+K
+F https://www.onsemi.com/pub/Collateral/NCV8164-D.PDF
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LVC2G34DBVR
+D Texas Instruments SN74LVC2G34DBVR, Dual, Buffer, Non-Inverting, 1.65  5.5 V, 6-Pin SOT-23
+K
+F https://www.ti.com/lit/gpn/SN74LVC2G34
+$ENDCMP
+#
+#End Doc Library

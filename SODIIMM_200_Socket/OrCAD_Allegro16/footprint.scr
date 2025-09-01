@@ -1,0 +1,3174 @@
+# **************************New Pattern starts here************************
+Version 14#
+setwindow pcb
+new
+newdrawfillin "517465304.dra" "Package Symbol"
+prmed
+setwindow Form.prmedit
+FORM prmedit design
+FORM prmedit type Package
+FORM prmedit units Millimeter
+FORM prmedit size Other
+FORM prmedit accuracy 3
+FORM prmedit width 2711
+FORM prmedit height 2436
+FORM prmedit apply
+FORM prmedit x -1095.5
+FORM prmedit y -1245.5
+FORM prmedit apply
+FORM prmedit lock_mode Line
+FORM prmedit lock_direction Off
+FORM prmedit apply
+FORM prmedit done
+setwindow pcb
+Status
+setwindow Form.Status
+FORM status lock_direction Off
+FORM status lock_mode line
+FORM status symbol_mirror NO
+FORM status drawing_size
+FORM status done
+setwindow pcb
+window center; pick     0.0     0.0
+define subclass
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name ASSEMBLY_TOP
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name SILKSCREEN_TOP
+setwindow Form.subclass
+FORM subclass PIN pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name PASTEMASK_TOP
+setwindow Form.subclass
+FORM subclass PIN pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name SOLDERMASK_TOP
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name PLACE_BOUND_TOP
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name PLACE_BOUND_BOTTOM
+setwindow Form.subclass
+FORM subclass PIN pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name SOLDERMASK_BOTTOM
+setwindow Form.subclass
+FORM subclass PIN pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name PASTEMASK_BOTTOM
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name SILKSCREEN_BOTTOM
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name ASSEMBLY_BOTTOM
+setwindow Form.subclass
+FORM subclass BOARD_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name DIMENSION
+setwindow Form.subclass
+FORM subclass BOARD_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name OUTLINE
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name ASSEMBLY_TOP
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name PLACE_BOUND_TOP
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name PLACE_BOUND_BOTTOM
+setwindow Form.subclass
+FORM subclass MANUFACTURING pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name NO_PROBE_TOP
+setwindow Form.subclass
+FORM subclass MANUFACTURING pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name NO_PROBE_BOTTOM
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name CONTACT_AREA
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name CUTOUTSLOTS
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name DIEBONDPADS
+setwindow Form.subclass
+FORM subclass PACKAGE_GEOMETRY pick
+setwindow Form.subclass_nonetch
+FORM subclass_nonetch name WIREBONDS
+FORM subclass done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 1
+setwindow pcb
+pick 0 0
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 2
+setwindow pcb
+pick 8.2 -0.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 3
+setwindow pcb
+pick 0 -0.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 4
+setwindow pcb
+pick 8.2 -0.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 5
+setwindow pcb
+pick 0 -1.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 6
+setwindow pcb
+pick 8.2 -1.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 7
+setwindow pcb
+pick 0 -1.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 8
+setwindow pcb
+pick 8.2 -2.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 9
+setwindow pcb
+pick 0 -2.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 10
+setwindow pcb
+pick 8.2 -2.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 11
+setwindow pcb
+pick 0 -3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 12
+setwindow pcb
+pick 8.2 -3.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 13
+setwindow pcb
+pick 0 -3.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 14
+setwindow pcb
+pick 8.2 -3.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 15
+setwindow pcb
+pick 0 -4.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 16
+setwindow pcb
+pick 8.2 -4.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 17
+setwindow pcb
+pick 0 -4.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 18
+setwindow pcb
+pick 8.2 -5.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 19
+setwindow pcb
+pick 0 -5.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 20
+setwindow pcb
+pick 8.2 -5.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 21
+setwindow pcb
+pick 0 -6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 22
+setwindow pcb
+pick 8.2 -6.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 23
+setwindow pcb
+pick 0 -6.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 24
+setwindow pcb
+pick 8.2 -6.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 25
+setwindow pcb
+pick 0 -7.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 26
+setwindow pcb
+pick 8.2 -7.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 27
+setwindow pcb
+pick 0 -7.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 28
+setwindow pcb
+pick 8.2 -8.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 29
+setwindow pcb
+pick 0 -8.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 30
+setwindow pcb
+pick 8.2 -8.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 31
+setwindow pcb
+pick 0 -9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 32
+setwindow pcb
+pick 8.2 -9.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 33
+setwindow pcb
+pick 0 -9.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 34
+setwindow pcb
+pick 8.2 -9.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 35
+setwindow pcb
+pick 0 -10.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 36
+setwindow pcb
+pick 8.2 -10.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 37
+setwindow pcb
+pick 0 -10.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 38
+setwindow pcb
+pick 8.2 -11.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 39
+setwindow pcb
+pick 0 -11.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 40
+setwindow pcb
+pick 8.2 -11.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 41
+setwindow pcb
+pick 0 -15.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 42
+setwindow pcb
+pick 8.2 -15.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 43
+setwindow pcb
+pick 0 -16.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 44
+setwindow pcb
+pick 8.2 -16.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 45
+setwindow pcb
+pick 0 -16.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 46
+setwindow pcb
+pick 8.2 -17.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 47
+setwindow pcb
+pick 0 -17.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 48
+setwindow pcb
+pick 8.2 -17.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 49
+setwindow pcb
+pick 0 -18
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 50
+setwindow pcb
+pick 8.2 -18.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 51
+setwindow pcb
+pick 0 -18.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 52
+setwindow pcb
+pick 8.2 -18.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 53
+setwindow pcb
+pick 0 -19.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 54
+setwindow pcb
+pick 8.2 -19.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 55
+setwindow pcb
+pick 0 -19.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 56
+setwindow pcb
+pick 8.2 -20.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 57
+setwindow pcb
+pick 0 -20.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 58
+setwindow pcb
+pick 8.2 -20.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 59
+setwindow pcb
+pick 0 -21
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 60
+setwindow pcb
+pick 8.2 -21.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 61
+setwindow pcb
+pick 0 -21.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 62
+setwindow pcb
+pick 8.2 -21.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 63
+setwindow pcb
+pick 0 -22.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 64
+setwindow pcb
+pick 8.2 -22.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 65
+setwindow pcb
+pick 0 -22.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 66
+setwindow pcb
+pick 8.2 -23.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 67
+setwindow pcb
+pick 0 -23.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 68
+setwindow pcb
+pick 8.2 -23.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 69
+setwindow pcb
+pick 0 -24
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 70
+setwindow pcb
+pick 8.2 -24.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 71
+setwindow pcb
+pick 0 -24.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 72
+setwindow pcb
+pick 8.2 -24.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 73
+setwindow pcb
+pick 0 -25.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 74
+setwindow pcb
+pick 8.2 -25.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 75
+setwindow pcb
+pick 0 -25.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 76
+setwindow pcb
+pick 8.2 -26.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 77
+setwindow pcb
+pick 0 -26.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 78
+setwindow pcb
+pick 8.2 -26.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 79
+setwindow pcb
+pick 0 -27
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 80
+setwindow pcb
+pick 8.2 -27.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 81
+setwindow pcb
+pick 0 -27.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 82
+setwindow pcb
+pick 8.2 -27.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 83
+setwindow pcb
+pick 0 -28.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 84
+setwindow pcb
+pick 8.2 -28.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 85
+setwindow pcb
+pick 0 -28.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 86
+setwindow pcb
+pick 8.2 -29.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 87
+setwindow pcb
+pick 0 -29.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 88
+setwindow pcb
+pick 8.2 -29.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 89
+setwindow pcb
+pick 0 -30
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 90
+setwindow pcb
+pick 8.2 -30.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 91
+setwindow pcb
+pick 0 -30.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 92
+setwindow pcb
+pick 8.2 -30.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 93
+setwindow pcb
+pick 0 -31.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 94
+setwindow pcb
+pick 8.2 -31.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 95
+setwindow pcb
+pick 0 -31.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 96
+setwindow pcb
+pick 8.2 -32.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 97
+setwindow pcb
+pick 0 -32.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 98
+setwindow pcb
+pick 8.2 -32.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 99
+setwindow pcb
+pick 0 -33
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 100
+setwindow pcb
+pick 8.2 -33.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 101
+setwindow pcb
+pick 0 -33.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 102
+setwindow pcb
+pick 8.2 -33.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 103
+setwindow pcb
+pick 0 -34.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 104
+setwindow pcb
+pick 8.2 -34.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 105
+setwindow pcb
+pick 0 -34.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 106
+setwindow pcb
+pick 8.2 -35.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 107
+setwindow pcb
+pick 0 -35.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 108
+setwindow pcb
+pick 8.2 -35.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 109
+setwindow pcb
+pick 0 -36
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 110
+setwindow pcb
+pick 8.2 -36.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 111
+setwindow pcb
+pick 0 -36.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 112
+setwindow pcb
+pick 8.2 -36.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 113
+setwindow pcb
+pick 0 -37.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 114
+setwindow pcb
+pick 8.2 -37.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 115
+setwindow pcb
+pick 0 -37.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 116
+setwindow pcb
+pick 8.2 -38.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 117
+setwindow pcb
+pick 0 -38.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 118
+setwindow pcb
+pick 8.2 -38.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 119
+setwindow pcb
+pick 0 -39
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 120
+setwindow pcb
+pick 8.2 -39.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 121
+setwindow pcb
+pick 0 -39.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 122
+setwindow pcb
+pick 8.2 -39.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 123
+setwindow pcb
+pick 0 -40.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 124
+setwindow pcb
+pick 8.2 -40.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 125
+setwindow pcb
+pick 0 -40.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 126
+setwindow pcb
+pick 8.2 -41.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 127
+setwindow pcb
+pick 0 -41.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 128
+setwindow pcb
+pick 8.2 -41.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 129
+setwindow pcb
+pick 0 -42
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 130
+setwindow pcb
+pick 8.2 -42.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 131
+setwindow pcb
+pick 0 -42.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 132
+setwindow pcb
+pick 8.2 -42.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 133
+setwindow pcb
+pick 0 -43.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 134
+setwindow pcb
+pick 8.2 -43.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 135
+setwindow pcb
+pick 0 -43.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 136
+setwindow pcb
+pick 8.2 -44.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 137
+setwindow pcb
+pick 0 -44.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 138
+setwindow pcb
+pick 8.2 -44.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 139
+setwindow pcb
+pick 0 -45
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 140
+setwindow pcb
+pick 8.2 -45.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 141
+setwindow pcb
+pick 0 -45.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 142
+setwindow pcb
+pick 8.2 -45.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 143
+setwindow pcb
+pick 0 -46.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 144
+setwindow pcb
+pick 8.2 -46.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 145
+setwindow pcb
+pick 0 -46.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 146
+setwindow pcb
+pick 8.2 -47.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 147
+setwindow pcb
+pick 0 -47.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 148
+setwindow pcb
+pick 8.2 -47.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 149
+setwindow pcb
+pick 0 -48
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 150
+setwindow pcb
+pick 8.2 -48.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 151
+setwindow pcb
+pick 0 -48.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 152
+setwindow pcb
+pick 8.2 -48.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 153
+setwindow pcb
+pick 0 -49.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 154
+setwindow pcb
+pick 8.2 -49.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 155
+setwindow pcb
+pick 0 -49.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 156
+setwindow pcb
+pick 8.2 -50.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 157
+setwindow pcb
+pick 0 -50.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 158
+setwindow pcb
+pick 8.2 -50.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 159
+setwindow pcb
+pick 0 -51
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 160
+setwindow pcb
+pick 8.2 -51.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 161
+setwindow pcb
+pick 0 -51.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 162
+setwindow pcb
+pick 8.2 -51.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 163
+setwindow pcb
+pick 0 -52.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 164
+setwindow pcb
+pick 8.2 -52.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 165
+setwindow pcb
+pick 0 -52.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 166
+setwindow pcb
+pick 8.2 -53.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 167
+setwindow pcb
+pick 0 -53.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 168
+setwindow pcb
+pick 8.2 -53.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 169
+setwindow pcb
+pick 0 -54
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 170
+setwindow pcb
+pick 8.2 -54.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 171
+setwindow pcb
+pick 0 -54.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 172
+setwindow pcb
+pick 8.2 -54.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 173
+setwindow pcb
+pick 0 -55.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 174
+setwindow pcb
+pick 8.2 -55.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 175
+setwindow pcb
+pick 0 -55.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 176
+setwindow pcb
+pick 8.2 -56.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 177
+setwindow pcb
+pick 0 -56.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 178
+setwindow pcb
+pick 8.2 -56.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 179
+setwindow pcb
+pick 0 -57
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 180
+setwindow pcb
+pick 8.2 -57.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 181
+setwindow pcb
+pick 0 -57.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 182
+setwindow pcb
+pick 8.2 -57.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 183
+setwindow pcb
+pick 0 -58.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 184
+setwindow pcb
+pick 8.2 -58.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 185
+setwindow pcb
+pick 0 -58.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 186
+setwindow pcb
+pick 8.2 -59.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 187
+setwindow pcb
+pick 0 -59.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 188
+setwindow pcb
+pick 8.2 -59.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 189
+setwindow pcb
+pick 0 -60
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 190
+setwindow pcb
+pick 8.2 -60.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 191
+setwindow pcb
+pick 0 -60.6
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 192
+setwindow pcb
+pick 8.2 -60.9
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 193
+setwindow pcb
+pick 0 -61.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 194
+setwindow pcb
+pick 8.2 -61.5
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 195
+setwindow pcb
+pick 0 -61.8
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 196
+setwindow pcb
+pick 8.2 -62.1
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 197
+setwindow pcb
+pick 0 -62.4
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 198
+setwindow pcb
+pick 8.2 -62.7
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 199
+setwindow pcb
+pick 0 -63
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r200_35
+setwindow Form.mini
+FORM mini next_pin_number 200
+setwindow pcb
+pick 8.2 -63.3
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c85_h170
+setwindow Form.mini
+FORM mini next_pin_number MH1
+setwindow pcb
+pick 4.1 1.75
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 0
+Add Pin
+setwindow Form.mini
+FORM mini pad_name c60_h120
+setwindow Form.mini
+FORM mini next_pin_number MH2
+setwindow pcb
+pick 4.1 -65.05
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r460_390
+setwindow Form.mini
+FORM mini next_pin_number MP1
+setwindow pcb
+pick 16.1 1.2
+done
+Add Pin
+setwindow Form.mini
+FORM mini offsetx 0.00
+FORM mini offsety 0.00
+FORM mini rotate_pin 90
+Add Pin
+setwindow Form.mini
+FORM mini pad_name r460_390
+setwindow Form.mini
+FORM mini next_pin_number MP2
+setwindow pcb
+pick 16.1 -64.5
+done
+setwindow pcb
+Label refdes
+setwindow Form.mini
+FORM mini class REF DES
+FORM mini subclass SILKSCREEN_TOP
+FORM mini text_block 3
+FORM mini text_justification Center
+FORM mini angle 0
+FORM mini mirror NO
+setwindow pcb
+pick -1.125 0.000
+Text J*
+done
+Add rarc
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick -3.1 0
+pick -3.05 0
+angle -180
+done
+Add rarc
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick -3.1 0
+pick -3.05 0
+angle -180
+done
+Add rarc
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick -3.1 0
+pick -3.05 0
+angle -180
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 -67.2
+pick 25.6 -67.2
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick 25.6 -67.2
+pick 25.6 3.9
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick 25.6 3.9
+pick -0.9 3.9
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass ASSEMBLY_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 3.9
+pick -0.9 -67.2
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 0.85
+pick -0.9 0.85
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 0.85
+pick -0.9 3.9
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 3.9
+pick -0.9 3.9
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 3.9
+pick -0.9 0.85
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 3.9
+pick 25.6 3.9
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick 25.6 3.9
+pick 25.6 3.9
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick 25.6 3.9
+pick -0.9 3.9
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 3.9
+pick -0.9 3.9
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick 25.6 3.9
+pick 25.6 3.9
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick 25.6 3.9
+pick 25.6 -67.2
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick 25.6 -67.2
+pick 25.6 -67.2
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick 25.6 -67.2
+pick 25.6 3.9
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick 25.6 -67.2
+pick -0.9 -67.2
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 -67.2
+pick -0.9 -67.2
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 -67.2
+pick 25.6 -67.2
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick 25.6 -67.2
+pick 25.6 -67.2
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 -67.2
+pick -0.9 -67.2
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 -67.2
+pick -0.9 -64.15
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 -64.15
+pick -0.9 -64.15
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -0.9 -64.15
+pick -0.9 -67.2
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -4.15 4.9
+pick 26.6 4.9
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick 26.6 4.9
+pick 26.6 -68.2
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick 26.6 -68.2
+pick -4.15 -68.2
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass PLACE_BOUND_TOP
+setwindow FORM.mini
+FORM mini line_width 0.1
+FORM mini lock_direction Off
+setwindow pcb
+pick -4.15 -68.2
+pick -4.15 4.9
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick -3.15 0
+pick -3.15 0
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick -3.05 0
+pick -3.05 0
+done
+Add Line
+setwindow FORM.mini
+FORM mini class PACKAGE GEOMETRY
+FORM mini subclass SILKSCREEN_TOP
+setwindow FORM.mini
+FORM mini line_width 0.2
+FORM mini lock_direction Off
+setwindow pcb
+pick -3.15 0
+pick -3.15 0
+done
+Create Symbol
+fillin "517465304"
+setwindow pcb
+trapsize 503
+dbdoctor
+setwindow Form.dbdoctor_allegro
+FORM dbdoctor_allegro drc YES
+FORM dbdoctor_allegro shapes YES
+FORM dbdoctor_allegro execute
+setwindow pcb
+save_as
+fillin "517465304"
+setwindow pcb
+#exit

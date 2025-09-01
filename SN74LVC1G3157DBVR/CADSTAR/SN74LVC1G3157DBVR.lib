@@ -1,0 +1,18 @@
+.SN74LVC1G3157DBVR :1 ;SINGLE-POLE, DOUBLE-THROW ANALOG SWITCH
+SOT95P280X145-6N
+*STM IC
+*NGS
+*PLB 1="B2" 2="GND" 3="B1" 4="A" 5="VCC" 6="S"
+*MXP 6
+*DFN SN74LVC1G3157DBVR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (SN74LVC1G3157DBVR)
+~!Mouser Part Number (595-SN74LVC1G3157DBV)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC1G3157DBVR?qs=PVVDbbWpW3ID6l2sElWeMw%3D%3D)
+~!Arrow Part Number (SN74LVC1G3157DBVR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sn74lvc1g3157dbvr/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (http://componentsearchengine.com/Datasheets/1/SN74LVC1G3157DBVR.pdf)
+~!Height (1.45mm)
+~!3D_Model (SN74LVC1G3157DBVR)
+SN74LVC1G3157DBVR
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

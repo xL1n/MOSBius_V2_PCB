@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=5-1746530-4
+PartCategory=Connector
+PackageCategory=Other
+PinCount=202
+Version=2.2
+Released=2020-03-22 10:28:03
+Downloaded=2025-08-24 19:05:12
+3D=Y

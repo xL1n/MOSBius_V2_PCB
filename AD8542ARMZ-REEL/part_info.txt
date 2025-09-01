@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=AD8542ARMZ-REEL
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=2.1
+Released=2017-01-10 13:33:33
+Downloaded=2025-08-30 02:29:36
+3D=Y

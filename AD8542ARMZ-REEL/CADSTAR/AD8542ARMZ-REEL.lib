@@ -1,0 +1,18 @@
+.AD8542ARMZ-REEL :1 ; Single-supply operation: 2.7 V to 5.5 V  Low supply current: 45 A/amplifier  Wide bandwidth: 1 MHz  No phase reversal  Low input currents: 4 pA  Unity gain stable  Rail-to-rail input and output  AEC-Q100 qualified for automotive applications
+SOP65P490X110-8N
+*STM IC
+*NGS
+*PLB 1="OUT A" 2="-IN A" 3="+IN A" 4="V-" 5="+IN B" 6="-IN B" 7="OUT B" 8="V+"
+*MXP 8
+*DFN AD8542ARMZ-REEL
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (AD8542ARMZ-REEL)
+~!Mouser Part Number (584-AD8542ARMZ-R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8542ARMZ-REEL?qs=%2FtpEQrCGXCzeOxAKFphJiQ%3D%3D)
+~!Arrow Part Number (AD8542ARMZ-REEL)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ad8542armz-reel/analog-devices?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.analog.com/AD8542/datasheet)
+~!Height (1.1mm)
+~!3D_Model (AD8542ARMZ-REEL)
+AD8542ARMZ-REEL
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

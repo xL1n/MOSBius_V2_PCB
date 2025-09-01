@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'UM6K34NTCN'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ROHM Semiconductor", "UM6K34NTCN" (!) = "", "SOT65P210X100-6N", "SOT23 (6-Pin)", "755-UM6K34NTCN", "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/UM6K34NTCN?qs=npTsUczJOtMIn9jsho046Q%3D%3D", "", "", "0.9V Drive Nch+Nch MOSFET", "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k34ntcn-e.pdf", "1 mm"
+END_PART
+
+END.

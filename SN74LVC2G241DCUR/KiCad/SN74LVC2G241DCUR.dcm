@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SN74LVC2G241DCUR
+D Dual Buffer/Driver With 3-State Outputs
+K
+F http://www.ti.com/lit/gpn/sn74lvc2g241
+$ENDCMP
+#
+#End Doc Library

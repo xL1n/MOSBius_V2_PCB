@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=SN74LVC1G3157DBVR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=5.1
+Released=2020-12-28 14:40:44
+Downloaded=2025-08-30 18:43:15
+3D=Y

@@ -1,0 +1,18 @@
+.UM6K34NTCN :1 ;0.9V Drive Nch+Nch MOSFET
+SOT65P210X100-6N
+*STM Q
+*NGS
+*PLB 1="S_1" 2="G_1" 3="D_1" 4="S_2" 5="G_2" 6="D_2"
+*MXP 6
+*DFN UM6K34NTCN
+~!Manufacturer_Name (ROHM Semiconductor)
+~!Manufacturer_Part_Number (UM6K34NTCN)
+~!Mouser Part Number (755-UM6K34NTCN)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/UM6K34NTCN?qs=npTsUczJOtMIn9jsho046Q%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/um6k34ntcn-e.pdf)
+~!Height (1mm)
+~!3D_Model (UM6K34NTCN)
+UM6K34NTCN
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

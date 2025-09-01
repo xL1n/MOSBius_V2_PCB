@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5_1746530_4'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "5-1746530-4" (!) = "", "517465304", "Other", "571-5-1746530-4", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-1746530-4?qs=ZjKkSzBea3O3sfDEJqHfXQ%3D%3D", "5-1746530-4", "https://www.arrow.com/en/products/5-1746530-4/te-connectivity?region=nac", "Body Features: Ejector Location Both Ends | Latch Material Stainless Steel | Connector Profile Standard | Latch Plating Material Tin | Module Key Type SGRAM | Ejector Type Locking | Configuration Features: Number of Keys 1 | Number of Bays 2 | Number of Rows 2 | Module Orientation Right Angle | Number of Positions 200 | Contact Features: Memory Socket Type Memory Card | Contact Current Rating (Max) .5 AMP | Contact Base Material Copper Alloy | Contact Mating Area Plating Material Gold Flash | PCB Contact Te", "https://componentsearchengine.com/Datasheets/1/5-1746530-4.pdf", "6.5 mm"
+END_PART
+
+END.

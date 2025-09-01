@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NCV8164ASN250T1G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-02-18-14:59:41)
+    (mountForm default
+        (footprintRef "SOT95P275X110-5N")
+        (spec "System")
+    )
+)

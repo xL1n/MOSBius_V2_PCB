@@ -1,0 +1,18 @@
+.SN74LVC2G241DCUR :1 ;Dual Buffer/Driver With 3-State Outputs
+SOP50P310X90-8N
+*STM IC
+*NGS
+*PLB 1="1'OE'" 2="1A" 3="2Y" 4="GND" 5="2A" 6="1Y" 7="2OE" 8="VCC"
+*MXP 8
+*DFN SN74LVC2G241DCUR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (SN74LVC2G241DCUR)
+~!Mouser Part Number (595-SN74LVC2G241DCUR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC2G241DCUR?qs=JS6RUWRH9DV7W1UO8b3P2w%3D%3D)
+~!Arrow Part Number (SN74LVC2G241DCUR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/sn74lvc2g241dcur/texas-instruments?utm_currency=USD&region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/sn74lvc2g241)
+~!Height (0.9mm)
+~!3D_Model (SN74LVC2G241DCUR)
+SN74LVC2G241DCUR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

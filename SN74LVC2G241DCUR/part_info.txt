@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=SN74LVC2G241DCUR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2020-01-03 12:02:54
+Downloaded=2025-08-29 03:29:49
+3D=Y

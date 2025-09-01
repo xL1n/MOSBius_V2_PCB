@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SN74LVC2G241DCUR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "SN74LVC2G241DCUR" (!) = "", "SOP50P310X90-8N", "Small Outline Packages", "595-SN74LVC2G241DCUR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC2G241DCUR?qs=JS6RUWRH9DV7W1UO8b3P2w%3D%3D", "SN74LVC2G241DCUR", "https://www.arrow.com/en/products/sn74lvc2g241dcur/texas-instruments?utm_currency=USD&region=nac", "Dual Buffer/Driver With 3-State Outputs", "http://www.ti.com/lit/gpn/sn74lvc2g241", "0.9 mm"
+END_PART
+
+END.

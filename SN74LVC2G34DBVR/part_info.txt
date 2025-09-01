@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=SN74LVC2G34DBVR
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=1.1
+Released=2019-11-11 17:37:39
+Downloaded=2025-08-27 18:25:40
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LTC4365HTS8#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LTC4365HTS8#PBF" (!) = "", "SOT65P280X100-8N", "SOT23 (8-Pin)", "", "", "", "", "IC OVERVOLTAGE PROTECT", "http://www.linear.com/docs/29832", "1 mm"
+END_PART
+
+END.

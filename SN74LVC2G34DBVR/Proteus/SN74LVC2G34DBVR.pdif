@@ -1,0 +1,134 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SN74LVC2G34DBVR"
+   (description "Texas Instruments SN74LVC2G34DBVR, Dual, Buffer, Non-Inverting, 1.65  5.5 V, 6-Pin SOT-23")
+   (family "ANA")
+   (package "SOT95P280X145-6N")
+   (attribute "Datasheet Link" "https://www.ti.com/lit/gpn/SN74LVC2G34")
+   (attribute "Geometry.Height" "1.45mm")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "SN74LVC2G34DBVR")
+   (attribute "Mouser Part Number" "595-SN74LVC2G34DBVR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74LVC2G34DBVR?qs=gqbMQSs93zOw%2FyHBVKqhZQ%3D%3D")
+   (attribute "Arrow Part Number" "SN74LVC2G34DBVR")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74lvc2g34dbvr/texas-instruments?utm_currency=USD&region=nac")
+   (gate
+    (symbol "SN74LVC2G34DBVR")
+    (pin "1A" 1 PS)
+    (pin "GND" 2 PS)
+    (pin "2A" 3 PS)
+    (pin "1Y" 6 PS)
+    (pin "VCC" 5 PS)
+    (pin "2Y" 4 PS)
+   )
+  )
+  (symbol "SN74LVC2G34DBVR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 800 100) (pt 800 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1000 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOT95P280X145-6N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.1 1.775)
+      (pt 2.1 1.775)
+      (pt 2.1 -1.775)
+      (pt -2.1 -1.775)
+      (pt -2.1 1.775))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.8 1.45)
+      (pt 0.8 1.45)
+      (pt 0.8 -1.45)
+      (pt -0.8 -1.45)
+      (pt -0.8 1.45))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -0.8 0.5)
+      (pt 0.15 1.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -0.3 1.45)
+      (pt 0.3 1.45)
+      (pt 0.3 -1.45)
+      (pt -0.3 -1.45)
+      (pt -0.3 1.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.85 1.6)
+      (pt -0.65 1.6))))
+   (leg 1 (pt -1.25 0.95) (padstack 0))
+   (leg 2 (pt -1.25 0) (padstack 0))
+   (leg 3 (pt -1.25 -0.95) (padstack 0))
+   (leg 4 (pt 1.25 -0.95) (padstack 0))
+   (leg 5 (pt 1.25 0) (padstack 0))
+   (leg 6 (pt 1.25 0.95) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.6 1.2 0 0 0))
+   )
+   (model "SN74LVC2G34DBVR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

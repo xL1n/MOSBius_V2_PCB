@@ -1,0 +1,18 @@
+.LTC4365HTS8_PBF :1 ;IC OVERVOLTAGE PROTECT
+SOT65P280X100-8N
+*STM IC
+*NGS
+*PLB 1="VIN" 2="UV" 3="OV" 4="GND" 5="'SHDN'" 6="'FAULT'" 7="VOUT" 8="GATE"
+*MXP 8
+*DFN LTC4365HTS8_PBF
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LTC4365HTS8#PBF)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.linear.com/docs/29832)
+~!Height (1mm)
+~!3D_Model (LTC4365HTS8#PBF)
+LTC4365HTS8_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

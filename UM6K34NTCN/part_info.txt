@@ -1,0 +1,9 @@
+Manufacturer=ROHM Semiconductor
+PartNumber=UM6K34NTCN
+PartCategory=MOSFET (N-Channel)
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=2.1
+Released=2019-09-13 10:14:24
+Downloaded=2025-08-22 21:57:54
+3D=Y

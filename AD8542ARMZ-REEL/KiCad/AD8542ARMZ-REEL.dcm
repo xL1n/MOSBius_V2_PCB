@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8542ARMZ-REEL
+D  Single-supply operation: 2.7 V to 5.5 V  Low supply current: 45 A/amplifier  Wide bandwidth: 1 MHz  No phase reversal  Low input currents: 4 pA  Unity gain stable  Rail-to-rail input and output  AEC-Q100 qualified for automotive applications
+K
+F https://www.analog.com/AD8542/datasheet
+$ENDCMP
+#
+#End Doc Library

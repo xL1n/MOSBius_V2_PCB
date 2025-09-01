@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SN74LVC2G34DBVR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-08-04:16:58)
+    (mountForm default
+        (footprintRef "SOT95P280X145-6N")
+        (spec "System")
+    )
+)

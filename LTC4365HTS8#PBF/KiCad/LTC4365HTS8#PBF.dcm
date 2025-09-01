@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC4365HTS8#PBF
+D IC OVERVOLTAGE PROTECT
+K
+F http://www.linear.com/docs/29832
+$ENDCMP
+#
+#End Doc Library

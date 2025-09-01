@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NCV8164ASN250T1G'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "NCV8164ASN250T1G" (!) = "", "SOT95P275X110-5N", "SOT23 (5-Pin)", "863-NCV8164ASN250T1G", "https://www.mouser.co.uk/ProductDetail/onsemi/NCV8164ASN250T1G?qs=DPoM0jnrROUQLzacndrwng%3D%3D", "NCV8164ASN250T1G", "https://www.arrow.com/en/products/ncv8164asn250t1g/on-semiconductor?region=nac", "1.6V to 5.5V input voltage; PSRR: 85 dB at 1 kHz; Low VDO at 2.8V @80mV max dropout; WDFN6 2 mm x 2 mm, DFNW8 3 mm x 3 mm, and TSOP-5; Ultra-Low Noise: 9VRMS; 150C operating Junction temperature", "https://www.onsemi.com/pub/Collateral/NCV8164-D.PDF", "1.1 mm"
+END_PART
+
+END.

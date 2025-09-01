@@ -1,0 +1,146 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AD8542ARMZ-REEL"
+   (description " Single-supply operation: 2.7 V to 5.5 V  Low supply current: 45 A/amplifier  Wide bandwidth: 1 MHz  No phase reversal  Low input currents: 4 pA  Unity gain stable  Rail-to-rail input and output  AEC-Q100 qualified for automotive applications")
+   (family "ANA")
+   (package "SOP65P490X110-8N")
+   (attribute "Datasheet Link" "https://www.analog.com/AD8542/datasheet")
+   (attribute "Geometry.Height" "1.1mm")
+   (attribute "Manufacturer_Name" "Analog Devices")
+   (attribute "Manufacturer_Part_Number" "AD8542ARMZ-REEL")
+   (attribute "Mouser Part Number" "584-AD8542ARMZ-R")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/AD8542ARMZ-REEL?qs=%2FtpEQrCGXCzeOxAKFphJiQ%3D%3D")
+   (attribute "Arrow Part Number" "AD8542ARMZ-REEL")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/ad8542armz-reel/analog-devices?utm_currency=USD&region=nac")
+   (gate
+    (symbol "AD8542ARMZ-REEL")
+    (pin "OUT_A" 1 PS)
+    (pin "-IN_A" 2 PS)
+    (pin "+IN_A" 3 PS)
+    (pin "V-" 4 PS)
+    (pin "V+" 8 PS)
+    (pin "OUT_B" 7 PS)
+    (pin "-IN_B" 6 PS)
+    (pin "+IN_B" 5 PS)
+   )
+  )
+  (symbol "AD8542ARMZ-REEL"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOP65P490X110-8N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.2 1.85)
+      (pt 3.2 1.85)
+      (pt 3.2 -1.85)
+      (pt -3.2 -1.85)
+      (pt -3.2 1.85))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.5 1.5)
+      (pt 1.5 1.5)
+      (pt 1.5 -1.5)
+      (pt -1.5 -1.5)
+      (pt -1.5 1.5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.5 0.85)
+      (pt -0.85 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.15 1.5)
+      (pt 1.15 1.5)
+      (pt 1.15 -1.5)
+      (pt -1.15 -1.5)
+      (pt -1.15 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.95 1.55)
+      (pt -1.5 1.55))))
+   (leg 1 (pt -2.225 0.975) (padstack 0))
+   (leg 2 (pt -2.225 0.325) (padstack 0))
+   (leg 3 (pt -2.225 -0.325) (padstack 0))
+   (leg 4 (pt -2.225 -0.975) (padstack 0))
+   (leg 5 (pt 2.225 -0.975) (padstack 0))
+   (leg 6 (pt 2.225 -0.325) (padstack 0))
+   (leg 7 (pt 2.225 0.325) (padstack 0))
+   (leg 8 (pt 2.225 0.975) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.45 1.45 0 0 0))
+   )
+   (model "AD8542ARMZ-REEL.stp"
+    (euler 90 0 0)
+    (offset 0 0 0.5799999833106995)
+   )
+  )
+ )
+)
