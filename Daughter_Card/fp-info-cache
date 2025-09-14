@@ -1,4 +1,4 @@
-26650414441274011
+26655687090252684
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70553,6 +70553,13 @@ Yellow 5381 Series LED
 2
 2
 MOSBius_V2_CHIP
+AD8542
+8-Lead Mini Small Outline Package [MSOP] (RM-8)
+Integrated Circuit
+0
+8
+8
+MOSBius_V2_CHIP
 LED_150120RS75000_WRE
 
 150120RS75000 
@@ -70588,6 +70595,13 @@ QFN 0.5
 90
 65
 MOSBius_V2_CHIP
+SN74LVC1G3157
+DBV (R-PDSO-G6)
+Integrated Circuit
+0
+6
+6
+MOSBius_V2_CHIP
 SN74LVC2G34DBVR
 DBV0006A-
 Integrated Circuit
@@ -70601,6 +70615,13 @@ Connector
 0
 204
 204
+MOSBius_V2_CHIP
+SODIMM-200_1.8V_Card_edge_Extend
+SODIMM 200-pins edge connector, Jedec MO-224 Variation AB compliant (1.8V DDR2 SDRAM), 0.6mm pitch, https://www.jst-mfg.com/product/pdf/eng/eDM-200P.pdf
+sodimm
+0
+200
+200
 MOSBius_V2_CHIP
 SODIMM_200_socket
 5-1746530-4-2
