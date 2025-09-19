@@ -9886,6 +9886,16 @@
 	)
 	(wire
 		(pts
+			(xy 557.53 55.88) (xy 557.53 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f417a82-b3fa-4134-a0ea-a2f98637e4fd")
+	)
+	(wire
+		(pts
 			(xy 396.24 270.51) (xy 396.24 259.08)
 		)
 		(stroke
@@ -10096,6 +10106,16 @@
 	)
 	(wire
 		(pts
+			(xy 557.53 78.74) (xy 557.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3903134b-eb19-40d8-a1f0-c8c8a01d1d7e")
+	)
+	(wire
+		(pts
 			(xy 417.195 157.48) (xy 417.195 181.61)
 		)
 		(stroke
@@ -10233,6 +10253,16 @@
 			(type default)
 		)
 		(uuid "3dbf3807-7198-47af-b3b0-7c246ab81f14")
+	)
+	(wire
+		(pts
+			(xy 557.53 71.12) (xy 557.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddbd1be-0a4e-4580-acca-e779c93abf30")
 	)
 	(wire
 		(pts
@@ -16938,6 +16968,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols-Library:LED")
+		(at 557.53 74.93 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02464926-46af-4bdb-946d-0b591421b52a")
+		(property "Reference" "D4"
+			(at 553.72 75.2475 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_RED"
+			(at 553.72 77.7875 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "MOSBius_V2_CHIP:LED_150120RS75000_WRE"
+			(at 557.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 557.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 557.53 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfad1704-f8e1-492b-a5e8-604a5e97a67c")
+		)
+		(pin "2"
+			(uuid "5f4e778b-ce07-423c-92fe-6d9b9bd5beaa")
+		)
+		(instances
+			(project "Mother_Card"
+				(path "/da053484-4cfa-46d4-960d-d7e8607b5499"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
 		(at 142.24 180.34 180)
 		(unit 1)
@@ -20940,6 +21040,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 557.53 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "665538fd-adbd-46a2-ac99-007ad51799f7")
+		(property "Reference" "#PWR064"
+			(at 557.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 557.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 557.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 557.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 557.53 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60a91689-b911-4895-b605-f5103a99bb33")
+		)
+		(instances
+			(project "Mother_Card"
+				(path "/da053484-4cfa-46d4-960d-d7e8607b5499"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 285.75 182.88 0)
 		(mirror y)
 		(unit 1)
@@ -23344,6 +23509,76 @@
 			(project "Mother_Card"
 				(path "/da053484-4cfa-46d4-960d-d7e8607b5499"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols-Library:R_1206")
+		(at 557.53 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9eb235b1-f5cb-41ab-949d-482ed306eea7")
+		(property "Reference" "R6"
+			(at 560.07 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 560.07 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 557.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 557.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 557.53 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f6bd963-a3ab-4928-9819-dea209693aaa")
+		)
+		(pin "2"
+			(uuid "61de95d5-0ab3-44b0-b80b-5921bbeb04f9")
+		)
+		(instances
+			(project "Mother_Card"
+				(path "/da053484-4cfa-46d4-960d-d7e8607b5499"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -26859,6 +27094,72 @@
 			(project "Mother_Card"
 				(path "/da053484-4cfa-46d4-960d-d7e8607b5499"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 557.53 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd97f08b-6f5e-4808-ab91-21f65541670c")
+		(property "Reference" "#PWR065"
+			(at 557.53 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 557.53 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 557.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 557.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 557.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b0e6963-0952-450d-bf56-173fb0a47cc2")
+		)
+		(instances
+			(project "Mother_Card"
+				(path "/da053484-4cfa-46d4-960d-d7e8607b5499"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)

@@ -826,7 +826,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Mother_Card.step",
       "svg": "",
       "vrml": ""
     },
