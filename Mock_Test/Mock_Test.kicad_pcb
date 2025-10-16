@@ -146,7 +146,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "D:/KiCAD/MOSbius/Daughter_Card/Daughter_Card.step"
+		(model "D:/KiCAD/MOSbius/Mother_Card/Mother_Card.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -155,6 +155,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "D:/KiCAD/MOSbius/Daughter_Card/Daughter_Card.step"
+			(offset
+				(xyz 255.27508 -169.545 7.62)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -180)
 			)
 		)
 	)
